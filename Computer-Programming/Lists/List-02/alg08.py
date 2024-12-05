@@ -2,7 +2,7 @@
 #Program: alg08.py || list02
 # Author: Raissa Cavalcanti
 # Description: Sequence + Average
-########################################
+#########################################
 
 i = 1
 sum = 0

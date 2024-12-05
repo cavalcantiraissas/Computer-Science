@@ -1,5 +1,5 @@
 ########################################
-# Program: alg03.py || list01
+# Program: alg04.py || list01
 # Author: Raissa Cavalcanti
 # Description: Real Number - Square and Square Root
 ########################################

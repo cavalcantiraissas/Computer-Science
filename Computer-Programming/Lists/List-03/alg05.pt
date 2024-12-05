@@ -1,0 +1,22 @@
+########################################
+# Program: alg05.py || lista03
+# Author: Raissa Cavalcanti
+# Description: Vector 10 (reverse order)
+########################################
+
+vector_1 = []  # Values provided by the user
+vector_2 = []  # Values in reverse order
+
+size = 5  # Size of the vector
+
+# Collecting input values for vector_1
+for i in range(size):
+    value = int(input(f"Enter the {i+1} value: "))
+    vector_1.append(value)
+
+# Filling vector_2 with the reversed order of vector_1
+for i in range(size):
+    vector_2.append(vector_1[size - 1 - i])
+
+print("Vector 1 (original):", vector_1)
+print("Vector 2 (reversed):", vector_2)
